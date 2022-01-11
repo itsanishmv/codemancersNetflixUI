@@ -1,0 +1,83 @@
+.details__banner {
+  margin-top: 65px;
+  height: 650px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.details__banner::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 92%;
+  background: linear-gradient(
+    to top,
+    #181818,
+    rgba(23, 23, 23, 0.987) 1.62%,
+    rgba(63, 62, 62, 0.951) 3.1%,
+    rgba(23, 23, 23, 0.896) 4.5%,
+    rgba(23, 23, 23, 0.825) 5.8%,
+    rgba(23, 23, 23, 0.741) 7.06%,
+    rgba(23, 23, 23, 0.648) 8.24%,
+    rgba(23, 23, 23, 0.55) 9.42%,
+    rgba(23, 23, 23, 0.45) 10.58%,
+    rgba(23, 23, 23, 0.352) 11.76%,
+    rgba(23, 23, 23, 0.259) 12.94%,
+    rgba(23, 23, 23, 0.175) 14.2%,
+    rgba(23, 23, 23, 0.104) 15.5%,
+    rgba(23, 23, 23, 0.049) 16.9%,
+    rgba(23, 23, 23, 0.013) 18.38%,
+    rgba(23, 23, 23, 0) 20%
+  );
+}
+.details__container {
+  display: flex;
+}
+
+.details__info {
+  transform: translateX(150px);
+  color: white;
+  width: 500px;
+}
+.details__info::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -600px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    to right,
+    #181818 10%,
+    rgba(23, 23, 23, 0.98) 20%,
+    rgba(23, 23, 23, 0.97) 25%,
+    rgba(23, 23, 23, 0.95) 35%,
+    rgba(23, 23, 23, 0.94) 40%,
+    rgba(23, 23, 23, 0.92) 45%,
+    rgba(23, 23, 23, 0.9) 50%,
+    rgba(23, 23, 23, 0.87) 55%,
+    rgba(23, 23, 23, 0.82) 60%,
+    rgba(23, 23, 23, 0.75) 65%,
+    rgba(23, 23, 23, 0.63) 70%,
+    rgba(23, 23, 23, 0.45) 75%,
+    rgba(23, 23, 23, 0.27) 80%,
+    rgba(23, 23, 23, 0.15) 85%,
+    rgba(23, 23, 23, 0.08) 90%,
+    rgba(23, 23, 23, 0.03) 95%,
+    rgba(23, 23, 23, 0) 100%
+  );
+}
+.details__info__wrapper {
+  transform: translate(10px, 280px);
+}
+.details__overview {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+.details__metrics {
+  color: lightgray;
+}

@@ -1,0 +1,19 @@
+.trending__movie__list {
+  display: flex;
+  overflow: scroll;
+  margin-left: 10px;
+}
+.poster__images {
+  margin-left: 10px;
+  height: 250px;
+  width: 150px;
+  border-radius: 10px;
+}
+.row__name {
+  margin-left: 30px;
+  color: white;
+  font-size: 20px;
+}
+::-webkit-scrollbar {
+  display: none;
+}

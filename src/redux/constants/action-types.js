@@ -1,0 +1,3 @@
+export const ActionTypes = {
+    SELECTED_TRENDING_MOVIES: "SELECTED_TRENDING_MOVIES",
+}

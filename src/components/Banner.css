@@ -1,0 +1,25 @@
+.banner__container {
+  height: 500px;
+  width: 100vw;
+  z-index: -1;
+  margin-top: 65px;
+}
+.banner__contents {
+  transform: translateY(200px);
+  margin-left: 40px;
+}
+.banner__title {
+  text-align: left;
+}
+.banner__overview {
+  font-size: 15px;
+  width: 500px;
+  text-align: left;
+}
+.vote__average {
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 5px 0px 5px 5px;
+  width: 100px;
+  background-color: rgb(143, 140, 140);
+}
