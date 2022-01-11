@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import BaseUrl from './BaseUrl'
+import BaseUrl from '../BaseUrl'
 import './details.css'
-import Rows from './Rows'
+import Rows from '../Rows'
 
 export default function Details() {
     const [details, setDetails] = useState()

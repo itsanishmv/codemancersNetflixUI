@@ -1,5 +1,5 @@
 import React from 'react'
-import RowContents from './RowContents'
+import RowContents from './Rowcontents/RowContents'
 import Requests from '../Requests'
 
 function Movies() {
